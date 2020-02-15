@@ -1,6 +1,5 @@
-# Pull base image 
-From tomcat:8-jre8 
+From tomcat:8 
 
-# Maintainer 
-MAINTAINER "kserge2001@yahoo.fr" 
-COPY contact.war /usr/local/tomcat/webapps
+MAINTAINER Joel M
+
+COPY project16.war /usr/local/tomcat/webapps
